@@ -161,8 +161,8 @@ toggleBtn.addEventListener("click", (e) => {
 
 const randomWord = () => {
 
-     //db.word.delete();
-     //db.meanings.delete();
+     db.word.delete();
+     db.meanings.delete();
 
      const ranword = db.word.first().toArray()
  /* fetch("https://random-word-api.herokuapp.com/word?number=1")
